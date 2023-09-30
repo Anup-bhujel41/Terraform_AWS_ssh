@@ -1,0 +1,15 @@
+ generate key pair using aws key par.
+then tls_private key rsa for private key
+stote  private key in local disk
+send the public key to ec2 /.ssh/authorized_files for  ssh authentication
+
+
+
+after the instance has been cretaed change d=file permission of the poem file created 
+
+
+Note:
+icacls Autossh_1.pem /inheritance:r /grant:r "%USERNAME%:R"
+
+
+%USERNAME% = user (whoami)
